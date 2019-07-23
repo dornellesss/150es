@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorFundo"
+        tools:context=".LogoActivity">
+
+    <TextView
+            android:text="Efetuar Cadastro"
+            android:layout_width="325dp"
+            android:layout_height="51dp"
+            android:id="@+id/txCadastrolog"
+            android:background="@drawable/campotexto"
+            android:textSize="30sp" android:textStyle="bold" android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="4dp"
+            app:layout_constraintTop_toTopOf="parent" android:textColor="#ffffff" android:gravity="center"
+            app:layout_constraintHorizontal_bias="0.465"/>
+
+    <EditText
+            android:layout_width="239dp"
+            android:layout_height="37dp"
+            android:inputType=""
+            android:hint="@string/edTelefone"
+            android:background="@drawable/campohint"
+            android:ems="10"
+            android:id="@+id/edTelefone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold" android:textAlignment="center" android:textColor="#FF0D1C70"
+            android:textSize="14sp" app:layout_constraintTop_toBottomOf="@+id/spinner_sexo"
+            android:layout_marginTop="12dp" app:layout_constraintHorizontal_bias="0.5"/>
+
+
+    <EditText
+            android:layout_width="239dp"
+            android:layout_height="37dp"
+            android:inputType=""
+            android:hint="@string/edPeso"
+            android:background="@drawable/campohint"
+            android:ems="10"
+            android:id="@+id/edPeso"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold" android:textAlignment="center" android:textColor="#FF0D1C70"
+            android:textSize="14sp" app:layout_constraintTop_toBottomOf="@+id/edTelefone"
+            android:layout_marginTop="14dp"/>
+
+    <EditText
+            android:layout_width="235dp"
+            android:layout_height="39dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edAltura"
+            android:ems="10"
+            android:id="@+id/edAltura"
+            android:background="@drawable/campohint"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold" android:textAlignment="center" android:textColor="#FF0D1C70"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/edPeso" android:layout_marginTop="14dp"/>
+
+    <EditText
+            android:layout_width="331dp"
+            android:layout_height="33dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edEndereco"
+            android:ems="10"
+            android:id="@+id/edEndereco"
+            android:background="@drawable/campohint"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold" android:textAlignment="center" android:textColor="#FF0D1C70"
+            android:textSize="14sp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/edIdade" app:layout_constraintHorizontal_bias="0.5"/>
+
+    <EditText
+            android:layout_width="235dp"
+            android:layout_height="39dp"
+            android:inputType="textPersonName"
+            android:hint="@string/edIdade"
+            android:ems="10"
+            android:id="@+id/edIdade"
+            android:background="@drawable/campohint"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textStyle="bold" android:textAlignment="center" android:textColor="#FF0D1C70"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/edAltura" android:layout_marginTop="14dp"/>
+
+    <Button
+            android:text="Cadastrar"
+            android:id="@+id/btnCadastrarMenu"
+            android:layout_width="226dp"
+            android:layout_height="57dp"
+            android:background="@drawable/campobotao"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_cidades" android:layout_marginTop="12dp"
+            android:textAlignment="center" android:textStyle="bold"
+            android:textSize="24sp" app:layout_constraintHorizontal_bias="0.497" android:gravity="center"
+            android:textColor="#FFFFFF"/>
+    <TextView
+            android:text="@string/txDesCadas"
+            android:textColor="#081874"
+            android:layout_width="330dp"
+            android:layout_height="28dp"
+            android:id="@+id/txDesCadas"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/txCadastrolog" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="center" android:textSize="18sp" android:gravity="center"/>
+    <Spinner
+            android:layout_width="320dp"
+            android:layout_height="43dp"
+            android:background="@drawable/campospinner"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:entries="@array/Spinner_estado"
+            android:id="@+id/spinner_estados" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/edEndereco" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.494" app:layout_constraintEnd_toEndOf="parent"/>
+    <Spinner
+            android:layout_width="312dp"
+            android:layout_height="41dp"
+            android:background="@drawable/campospinner"
+            android:gravity="center"
+            android:entries="@array/Spinner_cidades"
+            android:textAlignment="center"
+            android:id="@+id/spinner_cidades" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_estados" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.494" app:layout_constraintEnd_toEndOf="parent"/>
+    <Spinner
+            android:layout_width="224dp"
+            android:layout_height="36dp"
+            android:background="@drawable/campospinner"
+            android:gravity="center"
+            android:entries="@array/Spinner_sexo"
+            android:textAlignment="center"
+            android:id="@+id/spinner_sexo" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/txDesCadas" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

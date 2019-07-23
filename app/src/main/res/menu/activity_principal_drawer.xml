@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_qrcode"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="@string/menu_qrcode"/>
+        <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/menu_foto"/>
+        <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_videos"/>
+        <item
+                android:id="@+id/nav_metas"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/menu_metas"/>
+    </group>
+
+    <item android:title="Convênios">
+        <menu>
+            <item
+                    android:id="@+id/nav_nutricao"
+                    android:icon="@drawable/ic_nutricao"
+                    android:title="@string/menu_nutricao"/>
+            <item
+                    android:id="@+id/nav_esporte"
+                    android:icon="@drawable/ic_ciclismo"
+                    android:title="@string/menu_esporte"/>
+            <item
+                    android:id="@+id/nav_danca"
+                    android:icon="@drawable/ic_danca"
+                    android:title="@string/menu_danca"/>
+            <item
+                    android:id="@+id/nav_academia"
+                    android:icon="@drawable/ic_fitness"
+                    android:title="@string/menu_academias"/>
+            <item
+                    android:id="@+id/nav_medico"
+                    android:icon="@drawable/ic_medicos"
+                    android:title="@string/menu_medicos"/>
+            <item
+                    android:id="@+id/nav_fisiote"
+                    android:icon="@drawable/ic_fitness"
+                    android:title="@string/menu_fisiote"/>
+        </menu>
+    </item>
+
+</menu>
