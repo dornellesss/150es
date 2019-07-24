@@ -16,8 +16,9 @@
     <string name="btnLogin">Já tenho Cadastro</string>
 
     <string name="txTexPag">Venha e faça parte do 150ESaude, pratique 150 minutos de atividades físicas por semana!!!
-        Este número é o idela para um indivíduo de (18-64) anos de acordo com a Organização Mundial de Saúde!Na
-        150ESaude, você consegue descontos nas diversas áreas que envolvem a saúde ex: Consultas, para isso basta se
+        Este número é o ideal para um indivíduo de (18-64) anos de acordo com a Organização Mundial de Saúde!
+
+        Na 150ESaude,você consegue descontos nas diversas áreas que envolvem a saúde ex: Consultas, para isso basta se
         exercitar!
     </string>
 
@@ -27,10 +28,10 @@
     <string name="edConfSenha">Confirme sua Senha</string>
     <string name="edPeso">Digite seu peso</string>
     <string name="edAltura">Digite sua altura</string>
-    <string name="edEndereco">Digite seu Endereço</string>
-    <string name="edCidade">Ddigite sua Cidade</string>
+    <string name="edEndereco">Digite seu endereço</string>
+    <string name="edCidade">Ddigite sua cidade</string>
     <string name="edIdade">Digite sua idade</string>
-    <string name="edTelefone">Digite seu Telefone</string>
+    <string name="edTelefone">Digite seu telefone</string>
     <string name="txDesCadas">Favor Preencher todos os campos</string>
 
     <string name="txTiTePri">150ESaude</string>
@@ -64,8 +65,8 @@
     <string-array name="Spinner_cidades">
         <item>Porto Alegre</item>
         <item>Canoas</item>
-        <item>São Leolpodo</item>
-        <item>Cachoeirrinha</item>
+        <item>São Leopoldo</item>
+        <item>Cachoeirinha</item>
         <item>Viamão</item>
     </string-array>
 
@@ -74,13 +75,13 @@
     <string name="txtTexCalen">Programe suas Atividades Físicas</string>
     <string name="btnCalendario">Calendário de Atividade</string>
 
-    <string name="txtCalendario">Marque o dias da semana de susa atividades </string>
+    <string name="txtCalendario">Marque o dias da semana de suas atividades </string>
 
     <string name="menu_qrcode">Scannear QRCode</string>
     <string name="menu_foto">Minhas Fotos</string>
     <string name="menu_esporte">Meus Esportes</string>
-    <string name="menu_videos">Meus Videos</string>
-    <string name="menu_metas">Minha Metas</string>
+    <string name="menu_videos">Meus VÍdeos</string>
+    <string name="menu_metas">MinhaS Metas</string>
     <string name="menu_nutricao">Lojas de Nutrição</string>
     <string name="menu_sportes">Lojas de Esportes</string>
     <string name="menu_danca">Escolas de danças</string>
@@ -89,8 +90,8 @@
     <string name="menu_fisiote">Fisioterapeutas</string>
     <string name="title_activity_perfio">Noticias e Novidades 150ESaude</string>
     <string name="large_text">
-        "Começa um pouco mais sobre o que é e envolve o area de boa saude através de noticias e informativos semanais
-        sobre a 150ESaude!"
+        "Leia mais sobre a área da saúde através de notícias e informativos
+        na 150ESaude!"
     </string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="intro_text">Deslize a borda para sair do mapa.</string>

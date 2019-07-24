@@ -18,41 +18,43 @@
             app:layout_constraintEnd_toEndOf="parent"/>
     <Button
             android:text="@string/btnCadastar"
-            android:layout_width="191dp"
-            android:layout_height="42dp"
+            android:layout_width="161dp"
+            android:layout_height="36dp"
             android:background="@drawable/campotexto"
-            android:id="@+id/btnCadastar" android:layout_marginTop="16dp"
+            android:id="@+id/btnCadastar" android:layout_marginTop="12dp"
             app:layout_constraintTop_toBottomOf="@+id/imbtnQrcode"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:textAlignment="center" android:textStyle="bold"
-            android:textSize="24sp" android:textColor="#FFFFFF"/>
+            android:textSize="20sp" android:textColor="#FFFFFF"/>
     <Button
             android:text="@string/btnLogin"
-            android:layout_width="284dp"
-            android:layout_height="47dp"
-            android:id="@+id/btnLogin" android:layout_marginTop="16dp"
+            android:layout_width="249dp"
+            android:layout_height="36dp"
+            android:id="@+id/btnLogin" android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/btnCadastar" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
-            android:background="@drawable/campotexto" android:textSize="24sp" android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/campotexto" android:textSize="20sp" android:textStyle="bold"
             android:textColor="#FFFFFF"/>
     <LinearLayout
             android:orientation="vertical"
             android:padding="5dp"
-            android:layout_width="396dp"
-            android:layout_height="381dp" tools:layout_editor_absoluteX="8dp"
+            android:layout_width="398dp"
+            android:layout_height="325dp" tools:layout_editor_absoluteX="8dp"
             android:id="@+id/linearLayout" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent">
         <TextView
                 android:text="Bem Vindo a Plataforma 150ESaude!"
                 android:background="@drawable/campotexto"
+                android:layout_gravity="center_horizontal"
                 android:textColor="#FFFFFF"
-                android:layout_width="match_parent"
+                android:layout_width="315dp"
                 android:layout_height="wrap_content" android:id="@+id/txTitext01" android:textAlignment="center"
-                android:textStyle="bold" android:textSize="30sp"/>
+                android:textStyle="bold" android:textSize="25sp"/>
         <TextView
                 android:padding="25dp"
+                android:layout_gravity="center_horizontal"
                 android:textColor="@color/colorCaixatexto"
-                android:layout_width="384dp"
-                android:layout_height="259dp" android:id="@+id/txTexPag" android:text="@string/txTexPag"
-                android:textAlignment="center" android:textStyle="bold" android:textSize="18sp"/>
+                android:layout_width="303dp"
+                android:layout_height="233dp" android:id="@+id/txTexPag" android:text="@string/txTexPag"
+                android:textAlignment="center" android:textStyle="bold" android:textSize="14sp"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

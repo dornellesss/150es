@@ -22,7 +22,7 @@
                 android:title="@string/menu_metas"/>
     </group>
 
-    <item android:title="Convênios">
+    <item android:title="Descontos">
         <menu>
             <item
                     android:id="@+id/nav_nutricao"
