@@ -12,10 +12,7 @@
                 android:id="@+id/nav_gallery"
                 android:icon="@drawable/ic_menu_gallery"
                 android:title="@string/menu_foto"/>
-        <item
-                android:id="@+id/nav_slideshow"
-                android:icon="@drawable/ic_menu_slideshow"
-                android:title="@string/menu_videos"/>
+
         <item
                 android:id="@+id/nav_metas"
                 android:icon="@drawable/ic_menu_manage"
@@ -40,6 +37,23 @@
                     android:id="@+id/nav_academia"
                     android:icon="@drawable/ic_fitness"
                     android:title="@string/menu_academias"/>
+        </menu>
+    </item>
+
+    <item android:title="Parceiros">
+        <menu>
+            <item
+                    android:id="@+id/nav_nutricionista"
+                    android:icon="@drawable/ic_nutricao"
+                    android:title="@string/menu_nutricionista"/>
+            <item
+                    android:id="@+id/nav_personalTreino"
+                    android:icon="@drawable/ic_ciclismo"
+                    android:title="@string/menu_personalTreino"/>
+            <item
+                    android:id="@+id/nav_psicolo"
+                    android:icon="@drawable/ic_danca"
+                    android:title="@string/menu_psicolo"/>
             <item
                     android:id="@+id/nav_medico"
                     android:icon="@drawable/ic_medicos"

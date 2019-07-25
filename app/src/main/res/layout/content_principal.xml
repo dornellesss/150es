@@ -12,31 +12,29 @@
 
     <TextView
             android:text="Começe agora sua atividade!"
-            android:layout_width="342dp"
-            android:layout_height="47dp"
-            android:background="@drawable/campotexto"
+            android:layout_width="362dp"
+            android:layout_height="77dp"
             android:orientation="vertical"
             android:id="@+id/textView" app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="16dp" android:textAlignment="center" android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:textSize="24sp" app:layout_constraintHorizontal_bias="0.492" android:gravity="center"
-            android:textColor="#FFFFFF"/>
+            android:textSize="30sp" app:layout_constraintHorizontal_bias="0.492" android:gravity="center"
+            android:textColor="#07A293"/>
     <TextView
             android:text="Escolha sua atividade"
             android:layout_width="292dp"
             android:layout_height="33dp"
-            android:background="@drawable/campotexto"
             android:orientation="vertical"
             android:id="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/textView" android:layout_marginTop="12dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:textAlignment="center" android:textStyle="bold"
             android:textSize="18sp" app:layout_constraintHorizontal_bias="0.495" android:gravity="center"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#07756B"/>
     <Spinner
-            android:layout_width="259dp"
-            android:layout_height="42dp"
+            android:layout_width="312dp"
+            android:layout_height="43dp"
             android:id="@+id/spinner_itens_ati"
             android:entries="@array/Spinner_items"
             android:textAlignment="center"
@@ -47,8 +45,8 @@
             android:padding="10dp"/>
     <Button
             android:text="@string/btnInicioAtivi"
-            android:layout_width="237dp"
-            android:layout_height="34dp"
+            android:layout_width="247dp"
+            android:layout_height="39dp"
             android:background="@drawable/campoamarelo"
             android:id="@+id/btnInicioAtivi" android:layout_marginTop="20dp"
             app:layout_constraintTop_toBottomOf="@+id/spinner_itens_ati" app:layout_constraintStart_toStartOf="parent"
@@ -60,51 +58,40 @@
             android:layout_width="249dp"
             android:layout_height="38dp"
             android:background="@drawable/campovermelho"
-            android:id="@+id/btnFinalAtivi" android:layout_marginTop="12dp"
+            android:id="@+id/btnFinalAtivi" android:layout_marginTop="28dp"
             app:layout_constraintTop_toBottomOf="@+id/btnInicioAtivi" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:gravity="center" android:textColor="#FFFFFF"
             android:textStyle="bold"/>
     <TextView
             android:text="Tempo Total da Atividade"
-            android:layout_width="272dp"
-            android:layout_height="32dp"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
             android:id="@+id/txTempoAt"
             android:background="@drawable/campotexto"
-            app:layout_constraintTop_toBottomOf="@+id/btnFinalAtivi" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnFinalAtivi" android:layout_marginTop="32dp"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintEnd_toEndOf="parent" android:textAlignment="center" android:textStyle="bold"
             android:textSize="18sp" android:gravity="center" android:textColor="#FFFFFF"/>
     <TextView
             android:text="Tempo Total Acumulado"
-            android:layout_width="261dp"
-            android:layout_height="31dp"
+            android:layout_width="259dp"
+            android:layout_height="37dp"
             android:id="@+id/txTempotoAcum"
             android:background="@drawable/campotexto"
-            app:layout_constraintTop_toBottomOf="@+id/txTempoAt" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/txTempoAt" android:layout_marginTop="32dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:textAlignment="center" android:textStyle="bold"
             android:textSize="18sp" android:gravity="center" android:textColor="#FFFFFF"
     />
-    <TextView
-            android:text="@string/txtTexCalen"
-            android:layout_width="319dp"
-            android:layout_height="36dp"
-            android:gravity="center"
-            android:background="@drawable/campotexto"
-            android:id="@+id/txtTexCalen" android:layout_marginTop="12dp"
-            app:layout_constraintTop_toBottomOf="@+id/txTempotoAcum" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:textAlignment="center" android:textStyle="bold" android:textColor="#FFFFFF"
-            android:textSize="18sp"/>
     <Button
             android:text="@string/btnCalendario"
             android:layout_width="230dp"
             android:layout_height="50dp"
-            android:background="@drawable/campobotao"
-            android:id="@+id/btnCalendario" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/txtTexCalen" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/campobotaoazul"
+            android:id="@+id/btnCalendario" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/txTempotoAcum" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.497" app:layout_constraintEnd_toEndOf="parent"
             android:textStyle="bold" android:textAlignment="center" android:textColor="#FFFFFF"/>
 
 

@@ -10,14 +10,15 @@
 
     <TextView
             android:text="Efetuar Cadastro"
-            android:layout_width="312dp"
-            android:layout_height="43dp"
+            android:layout_width="328dp"
+            android:layout_height="57dp"
             android:id="@+id/txCadastrolog"
             android:background="@drawable/campotexto"
             android:textSize="30sp" android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="40dp"
-            app:layout_constraintTop_toTopOf="parent" android:textAlignment="center" android:textColor="#ffffff"/>
+            app:layout_constraintTop_toTopOf="parent" android:textAlignment="center" android:textColor="#ffffff"
+            android:gravity="center"/>
 
     <EditText
             android:layout_width="239dp"

@@ -25,10 +25,10 @@ class ApreActivity : AppCompatActivity() {
             finish()
         }
 
-        imbtnQrcode.setOnClickListener{
-            val intent = Intent(context, QrcodeActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
+       // imbtnQrcode.setOnClickListener{
+         //   val intent = Intent(context, QrcodeActivity::class.java)
+          //  startActivity(intent)
+         //   finish()
+      //  }
     }
 }

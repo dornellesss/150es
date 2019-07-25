@@ -22,18 +22,18 @@
     <ImageView
             android:layout_width="343dp"
             android:layout_height="372dp" app:srcCompat="@mipmap/ic_launcher"
-            android:id="@+id/imageView2" android:layout_marginTop="60dp"
+            android:id="@+id/imageView2" android:layout_marginTop="28dp"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5"/>
     <TextView
             android:text="@string/txTePtex"
             android:background="@drawable/textoprincipais"
-            android:layout_width="271dp"
-            android:layout_height="53dp"
+            android:layout_width="349dp"
+            android:layout_height="106dp"
             android:id="@+id/txTePtex"
             app:layout_constraintTop_toBottomOf="@+id/txTePri" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:textAlignment="center" android:textStyle="bold" android:textColor="@color/colorLetrasint"
-            android:textSize="30sp" app:layout_constraintHorizontal_bias="0.5"/>
+            android:textSize="30sp" android:layout_marginTop="16dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

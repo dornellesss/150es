@@ -86,7 +86,7 @@ class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             R.id.nav_gallery -> {
 
             }
-            R.id.nav_slideshow -> {
+            R.id.nav_psicolo -> {
 
             }
             R.id.nav_nutricao -> {
@@ -98,6 +98,16 @@ class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             R.id.nav_academia -> {
 
             }
+            R.id.nav_personalTreino -> {
+
+            }
+            R.id.nav_fisiote -> {
+
+            }
+            R.id.nav_nutricionista -> {
+
+            }
+
         }
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         drawerLayout.closeDrawer(GravityCompat.START)

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">150ESaude</string>
-    <string name="title_activity_principal">MENU</string>
+    <string name="title_activity_principal"></string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -8,20 +8,22 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Pesquizar</string>
 
-    <string name="txTePtex">Você Consegue?</string>
+    //---tela inicial---//
+    <string name="txTePtex">Começe hoje Praticar seus Exercícios</string>
     <string name="txTeApTi">150ESaude</string>
     <string name="txTiLog">Efetuar Login</string>
 
-    <string name="btnCadastar">Cadastro</string>
-    <string name="btnLogin">Já tenho Cadastro</string>
 
+    //tela de Apresentação
     <string name="txTexPag">Venha e faça parte do 150ESaude, pratique 150 minutos de atividades físicas por semana!!!
         Este número é o ideal para um indivíduo de (18-64) anos de acordo com a Organização Mundial de Saúde!
-
         Na 150ESaude,você consegue descontos nas diversas áreas que envolvem a saúde ex: Consultas, para isso basta se
         exercitar!
     </string>
+    <string name="btnCadastar">Cadastro</string>
+    <string name="btnLogin">Já tenho Cadastro</string>
 
+    //tela Logi
     <string name="edNome">Digite seu Nome</string>
     <string name="edEmail">Digite seu Email</string>
     <string name="edSenha">Digite sua senha</string>
@@ -34,15 +36,44 @@
     <string name="edTelefone">Digite seu telefone</string>
     <string name="txDesCadas">Favor Preencher todos os campos</string>
 
-    <string name="txTiTePri">150ESaude</string>
-    <string name="txTiTePri2">Começe hoje sua Prática de Execícios</string>
-
     <string-array name="Spinner_sexo">
     <item>Masculino</item>
     <item>Feminino</item>
     </string-array>
 
+    <string-array name="Spinner_bairro">
+        <item>Click aqui em qual e seu Bairro</item>
+        <item>Moinhos de vento</item>
+        <item>Menino Deus</item>
+        <item>Centro</item>
+        <item>Santana</item>
+        <item>Tristeza</item>
+    </string-array>
+
+    <string-array name="Spinner_estado">
+        <item>Estados disponíveis</item>
+        <item>Rio Grande do Sul</item>
+        <item>Santa Catarina</item>
+        <item>Parana</item>
+    </string-array>
+
+    <string-array name="Spinner_cidades">
+        <item>Escolha a cidade</item>
+        <item>Porto Alegre</item>
+        <item>Canoas</item>
+        <item>São Leopoldo</item>
+    </string-array>
+
+    <string name="txTiTePri">150ESaude</string>
+    <string name="txTiTePri2">Começe hoje sua Prática de Execícios</string>
+
+    <string name="btnInicioAtivi">Iníciar Atividade</string>
+    <string name="btnFinalAtivi">Finalizar Atividade</string>
+    <string name="txtTexCalen">Programe suas Atividades Físicas</string>
+    <string name="btnCalendario">Calendário de Atividade</string>
+
     <string-array name="Spinner_items">
+        <item>Click aqui é escolha suas atividades</item>
         <item>Atletismo</item>
         <item>Basquete</item>
         <item>Caminhada</item>
@@ -54,40 +85,25 @@
         <item>Outras</item>
     </string-array>
 
-    <string-array name="Spinner_estado">
-        <item>Rio Grande do Sul</item>
-        <item>Santa Catarina</item>
-        <item>Parana</item>
-        <item>São Paulo</item>
-        <item>Rio de Janeiro</item>
-    </string-array>
-
-    <string-array name="Spinner_cidades">
-        <item>Porto Alegre</item>
-        <item>Canoas</item>
-        <item>São Leopoldo</item>
-        <item>Cachoeirinha</item>
-        <item>Viamão</item>
-    </string-array>
-
-    <string name="btnInicioAtivi">Iníciar Atividade</string>
-    <string name="btnFinalAtivi">Finalizar Atividade</string>
-    <string name="txtTexCalen">Programe suas Atividades Físicas</string>
-    <string name="btnCalendario">Calendário de Atividade</string>
-
     <string name="txtCalendario">Marque o dias da semana de suas atividades </string>
 
+    //tela MENU
     <string name="menu_qrcode">Scannear QRCode</string>
     <string name="menu_foto">Minhas Fotos</string>
-    <string name="menu_esporte">Meus Esportes</string>
+    <string name="menu_esporte">Lojas de Esportes</string>
     <string name="menu_videos">Meus VÍdeos</string>
-    <string name="menu_metas">MinhaS Metas</string>
+    <string name="menu_metas">Minhas Metas</string>
     <string name="menu_nutricao">Lojas de Nutrição</string>
     <string name="menu_sportes">Lojas de Esportes</string>
     <string name="menu_danca">Escolas de danças</string>
     <string name="menu_academias">Acadêmias</string>
-    <string name="menu_medicos">Medicos</string>
+
+    <string name="menu_nutricionista">Nutricionaistas</string>
+    <string name="menu_personalTreino">Personal Treinner</string>
+    <string name="menu_psicolo">Psicologos</string>
+    <string name="menu_medicos">Medícos</string>
     <string name="menu_fisiote">Fisioterapeutas</string>
+
     <string name="title_activity_perfio">Noticias e Novidades 150ESaude</string>
     <string name="large_text">
         "Leia mais sobre a área da saúde através de notícias e informativos
