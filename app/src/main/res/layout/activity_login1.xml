@@ -12,11 +12,11 @@
             android:layout_width="312dp"
             android:layout_height="65dp"
             android:id="@+id/txTiLog"
-            android:textColor="#ffffff"
+            android:textColor="#055F57"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="36dp"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintEnd_toEndOf="parent" android:textAlignment="center" android:textSize="30sp"
-            android:text="@string/txTiLog" android:background="@drawable/campotexto" android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent" android:textAlignment="center" android:textSize="36sp"
+            android:text="@string/txTiLog" android:textStyle="bold"
             android:gravity="center"/>
 
 
