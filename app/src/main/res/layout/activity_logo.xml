@@ -32,7 +32,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:textStyle="bold" android:textAlignment="center" android:textColor="@color/colorLetrasverde"
             android:textSize="14sp" app:layout_constraintTop_toBottomOf="@+id/txCadastrolog"
-            android:layout_marginTop="24dp" app:layout_constraintHorizontal_bias="0.5"/>
+            android:layout_marginTop="16dp" app:layout_constraintHorizontal_bias="0.5"/>
 
 
     <EditText
@@ -82,13 +82,13 @@
             android:id="@+id/btnCadastrarMenu"
             android:layout_width="212dp"
             android:layout_height="37dp"
-            android:background="@drawable/campo_login_button"
+            android:background="@drawable/campobotao"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/spinner_cidades" android:layout_marginTop="24dp"
             android:textAlignment="center" android:textStyle="bold"
             android:textSize="20sp" app:layout_constraintHorizontal_bias="0.5" android:gravity="center"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF" android:layout_marginTop="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_bairro"/>
     <Spinner
             android:layout_width="319dp"
             android:layout_height="42dp"
@@ -96,9 +96,9 @@
             android:gravity="center"
             android:textAlignment="center"
             android:entries="@array/Spinner_estado"
-            android:id="@+id/spinner_estados" android:layout_marginTop="20dp"
-            app:layout_constraintTop_toBottomOf="@+id/spinner_bairro" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.494" app:layout_constraintEnd_toEndOf="parent"/>
+            android:id="@+id/spinner_estados" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/edIdade" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
     <Spinner
             android:layout_width="314dp"
             android:layout_height="38dp"
@@ -106,7 +106,7 @@
             android:gravity="center"
             android:entries="@array/Spinner_cidades"
             android:textAlignment="center"
-            android:id="@+id/spinner_cidades" android:layout_marginTop="20dp"
+            android:id="@+id/spinner_cidades" android:layout_marginTop="12dp"
             app:layout_constraintTop_toBottomOf="@+id/spinner_estados" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
     <Spinner
@@ -116,8 +116,8 @@
             android:gravity="center"
             android:entries="@array/Spinner_bairro"
             android:textAlignment="center"
-            android:id="@+id/spinner_bairro" android:layout_marginTop="20dp"
-            app:layout_constraintTop_toBottomOf="@+id/edIdade" app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/spinner_bairro" android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_cidades" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

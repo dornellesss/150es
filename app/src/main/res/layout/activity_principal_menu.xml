@@ -8,9 +8,6 @@
         android:id="@+id/FragmentContainer"
         tools:context=".PrincipalMenuActivity">
 
-
-
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bottomNavigation"
             app:menu="@menu/button_nav_menuprincipal"
@@ -21,6 +18,5 @@
             android:layout_height="82dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageView2"
-            app:layout_constraintStart_toStartOf="parent"
-    />
+            app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

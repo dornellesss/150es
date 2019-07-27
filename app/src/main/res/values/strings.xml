@@ -9,10 +9,9 @@
     <string name="action_settings">Pesquizar</string>
 
     //---tela inicial---//
-    <string name="txTePtex">Começe hoje Praticar seus Exercícios</string>
+    <string name="txTePtex">Faça exercícios e ganhe descontos!</string>
     <string name="txTeApTi">150ESaude</string>
     <string name="txTiLog">Efetuar Login</string>
-
 
     //tela de Apresentação
     <string name="txTexPag">Venha e faça parte do 150ESaude, pratique 150 minutos de atividades físicas por semana!!!
@@ -20,7 +19,7 @@
         Na 150ESaude,você consegue descontos nas diversas áreas que envolvem a saúde ex: Consultas, para isso basta se
         exercitar!
     </string>
-    <string name="btnCadastar">Cadastro</string>
+    <string name="btnCadastar">Fazer Cadastro</string>
     <string name="btnLogin">Já tenho Cadastro</string>
 
     //tela Logi
@@ -55,6 +54,9 @@
         <item>Rio Grande do Sul</item>
         <item>Santa Catarina</item>
         <item>Parana</item>
+        <item>São Paulo</item>
+        <item>Rio de Janeiros</item>
+        <item>Minas Gerais</item>
     </string-array>
 
     <string-array name="Spinner_cidades">
@@ -62,6 +64,11 @@
         <item>Porto Alegre</item>
         <item>Canoas</item>
         <item>São Leopoldo</item>
+        <item>Canela</item>
+        <item>Gramado</item>
+        <item>Rio de Janeiro</item>
+        <item>São Paulo</item>
+        <item>Belo Horizonte</item>
     </string-array>
 
     <string name="txTiTePri">150ESaude</string>

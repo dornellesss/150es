@@ -23,7 +23,6 @@ class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-
         val context = this
 
         btnCalendario1.setOnClickListener {
