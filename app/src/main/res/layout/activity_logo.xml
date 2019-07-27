@@ -22,82 +22,73 @@
     <EditText
             android:layout_width="239dp"
             android:layout_height="37dp"
-            android:inputType=""
+            android:inputType="phone"
             android:hint="@string/edTelefone"
-            android:background="@drawable/campohint"
+            android:background="@drawable/campo_edittext"
             android:ems="10"
+            android:theme="@color/colorAccent"
             android:id="@+id/edTelefone"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:textStyle="bold" android:textAlignment="center" android:textColor="#FF0D1C70"
-            android:textSize="14sp" app:layout_constraintTop_toBottomOf="@+id/txDesCadas"
-            android:layout_marginTop="16dp"/>
+            android:textStyle="bold" android:textAlignment="center" android:textColor="@color/colorLetrasverde"
+            android:textSize="14sp" app:layout_constraintTop_toBottomOf="@+id/txCadastrolog"
+            android:layout_marginTop="24dp" app:layout_constraintHorizontal_bias="0.5"/>
 
 
     <EditText
             android:layout_width="239dp"
             android:layout_height="37dp"
-            android:inputType=""
+            android:inputType="numberDecimal"
             android:hint="@string/edPeso"
-            android:background="@drawable/campohint"
+            android:background="@drawable/campo_edittext"
             android:ems="10"
             android:id="@+id/edPeso"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:textStyle="bold" android:textAlignment="center" android:textColor="#FF0D1C70"
+            android:textStyle="bold" android:textAlignment="center" android:textColor="@color/colorLetrasverde"
             android:textSize="14sp" app:layout_constraintTop_toBottomOf="@+id/edTelefone"
-            android:layout_marginTop="14dp"/>
+            android:layout_marginTop="24dp"/>
 
     <EditText
             android:layout_width="235dp"
             android:layout_height="39dp"
-            android:inputType="textPersonName"
+            android:inputType="numberDecimal"
             android:hint="@string/edAltura"
             android:ems="10"
             android:id="@+id/edAltura"
-            android:background="@drawable/campohint"
+            android:background="@drawable/campo_edittext"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:textStyle="bold" android:textAlignment="center" android:textColor="#FF0D1C70"
+            android:textStyle="bold" android:textAlignment="center" android:textColor="@color/colorLetrasverde"
             android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@+id/edPeso" android:layout_marginTop="14dp"/>
+            app:layout_constraintTop_toBottomOf="@+id/edPeso" android:layout_marginTop="24dp"/>
 
     <EditText
             android:layout_width="235dp"
             android:layout_height="39dp"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:hint="@string/edIdade"
             android:ems="10"
             android:id="@+id/edIdade"
-            android:background="@drawable/campohint"
+            android:background="@drawable/campo_edittext"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:textStyle="bold" android:textAlignment="center" android:textColor="#FF0D1C70"
+            android:textStyle="bold" android:textAlignment="center" android:textColor="@color/colorLetrasverde"
             android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@+id/edAltura" android:layout_marginTop="14dp"/>
+            app:layout_constraintTop_toBottomOf="@+id/edAltura" android:layout_marginTop="24dp"/>
 
     <Button
             android:text="Cadastrar"
             android:id="@+id/btnCadastrarMenu"
             android:layout_width="212dp"
             android:layout_height="37dp"
-            android:background="@drawable/campobotao"
+            android:background="@drawable/campo_login_button"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/spinner_cidades" android:layout_marginTop="24dp"
             android:textAlignment="center" android:textStyle="bold"
             android:textSize="20sp" app:layout_constraintHorizontal_bias="0.5" android:gravity="center"
             android:textColor="#FFFFFF"/>
-    <TextView
-            android:text="@string/txDesCadas"
-            android:textColor="#081874"
-            android:layout_width="330dp"
-            android:layout_height="28dp"
-            android:id="@+id/txDesCadas"
-            android:layout_marginTop="12dp"
-            app:layout_constraintTop_toBottomOf="@+id/txCadastrolog" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
-            android:textAlignment="center" android:textSize="18sp" android:gravity="center"/>
     <Spinner
             android:layout_width="319dp"
             android:layout_height="42dp"

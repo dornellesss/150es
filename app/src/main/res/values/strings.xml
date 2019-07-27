@@ -37,8 +37,8 @@
     <string name="txDesCadas">Favor Preencher todos os campos</string>
 
     <string-array name="Spinner_sexo">
-    <item>Masculino</item>
-    <item>Feminino</item>
+        <item>Masculino</item>
+        <item>Feminino</item>
     </string-array>
 
     <string-array name="Spinner_bairro">
@@ -85,7 +85,7 @@
         <item>Outras</item>
     </string-array>
 
-    <string name="txtCalendario">Marque o dias da semana de suas atividades </string>
+    <string name="txtCalendario">Marque o dias da semana de suas atividades</string>
 
     //tela MENU
     <string name="menu_qrcode">Scannear QRCode</string>
@@ -98,8 +98,8 @@
     <string name="menu_danca">Escolas de danças</string>
     <string name="menu_academias">Acadêmias</string>
 
-    <string name="menu_nutricionista">Nutricionaistas</string>
-    <string name="menu_personalTreino">Personal Treinner</string>
+    <string name="menu_nutricionista">Nutricionistas</string>
+    <string name="menu_personalTreino">Personal Trainner</string>
     <string name="menu_psicolo">Psicologos</string>
     <string name="menu_medicos">Medícos</string>
     <string name="menu_fisiote">Fisioterapeutas</string>
@@ -111,4 +111,25 @@
     </string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="intro_text">Deslize a borda para sair do mapa.</string>
+
+    //PrincipalMenu
+    <string name="cal_atividade">Atividade</string>
+    <string name="cal_acumulado">Acumulado</string>
+    <string name="meus_pontos">Pontos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pont_frag">Pontos</string>
+    <string name="ativ_frag">Atividade</string>
+    <string name="acum_frag">Acumulado</string>
+
+    <string name="btnCalendario1">Calendário de atividades</string>
+
+    // tela atividade
+    <string-array name="Spinner_empresas">
+        <item>Click aqui é escolha um sistema de monitoramento</item>
+        <item>Sansung Heath</item>
+        <item>Treino em casa para Mulheres</item>
+        <item>Atividade Fisica GPS</item>
+        <item>Runtastic</item>
+    </string-array>
 </resources>

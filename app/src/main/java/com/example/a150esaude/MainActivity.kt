@@ -3,6 +3,7 @@ package com.example.a150esaude
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,19 +11,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val backgroundColorSpan = object : Thread(){
-            override fun run() {
-                try {
-                    Thread.sleep(2000)
+        changeToLogin()
+    }
 
-                    val intent = Intent(baseContext, ApreActivity::class.java)
-                    startActivity(intent)
+    fun changeToLogin() {
+        val intent = Intent(this, ApreActivity::class.java)
 
-                }catch (e:Exception){
-                    e.printStackTrace()
-                }
-            }
-        }
-        backgroundColorSpan.start()
+        Handler().postDelayed({
+            intent.change()
+        }, 2000)
+    }
+    fun Intent.change(){
+        startActivity(this)
+        finish()
     }
 }

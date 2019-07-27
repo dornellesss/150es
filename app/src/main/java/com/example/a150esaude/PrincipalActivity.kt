@@ -3,7 +3,6 @@ package com.example.a150esaude
 import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.core.view.GravityCompat
 import androidx.appcompat.app.ActionBarDrawerToggle
 import android.view.MenuItem
@@ -12,7 +11,6 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
-import kotlinx.android.synthetic.main.activity_log.*
 import kotlinx.android.synthetic.main.content_principal.*
 
 class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -27,7 +25,7 @@ class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
 
         val context = this
 
-        btnCalendario.setOnClickListener {
+        btnCalendario1.setOnClickListener {
             val intent = Intent(context, CalendarioActivity::class.java)
             startActivity(intent)
             finish()
@@ -104,9 +102,13 @@ class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             R.id.nav_fisiote -> {
 
             }
-            R.id.nav_nutricionista -> {
+            R.id.nav_psicolo-> {
 
             }
+            R.id.nav_academia -> {
+
+            }
+
 
         }
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)

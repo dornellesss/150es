@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/fundotelaaz"
+             tools:context=".AcumuladoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:background="@drawable/fundotelaaz"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layacum">
+
+
+        <TextView
+                android:text="Verifique o seu total de pontos!"
+                android:layout_width="362dp"
+                android:layout_height="77dp"
+                android:orientation="vertical"
+                android:id="@+id/txacumulados" app:layout_constraintTop_toTopOf="parent"
+                android:textAlignment="center" android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="30sp" app:layout_constraintHorizontal_bias="0.489" android:gravity="center"
+                android:textColor="#07A293" android:layout_marginTop="28dp"/>
+        <TextView
+                android:text="Tempo Total da Atividade"
+                android:layout_width="260dp"
+                android:layout_height="40dp"
+                android:id="@+id/txTempoAt"
+                android:background="@drawable/campotexto"
+                app:layout_constraintTop_toBottomOf="@+id/txacumulados"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintEnd_toEndOf="parent" android:textAlignment="center" android:textStyle="bold"
+                android:textSize="18sp" android:gravity="center" android:textColor="#FFFFFF"
+                android:layout_marginTop="76dp"/>
+        <TextView
+                android:text="Tempo Total Acumulado"
+                android:layout_width="259dp"
+                android:layout_height="37dp"
+                android:id="@+id/txTempotoAcum"
+                android:background="@drawable/campotexto"
+                app:layout_constraintTop_toBottomOf="@+id/txTempoAt"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" android:textAlignment="center" android:textStyle="bold"
+                android:textSize="18sp" android:gravity="center" android:textColor="#FFFFFF"
+                android:layout_marginTop="88dp" app:layout_constraintHorizontal_bias="0.5"/>
+        <Button
+                android:text="@string/btnCalendario"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:background="@drawable/campobotaoazul"
+                android:id="@+id/btnCalendario1"
+                app:layout_constraintTop_toBottomOf="@+id/txTempotoAcum" app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+                android:textStyle="bold" android:textAlignment="center" android:textColor="#FFFFFF"
+                android:layout_marginTop="92dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -15,7 +15,7 @@ class Login1Activity : AppCompatActivity() {
         val context = this
 
         btnCadastrarLogin.setOnClickListener {
-            val intent = Intent(context, PrincipalActivity::class.java)
+            val intent = Intent(context, PrincipalMenuActivity::class.java)
             startActivity(intent)
             finish()
         }

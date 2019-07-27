@@ -8,4 +8,6 @@
     <color name="colorCaixatexto">#20abcc</color>
     <color name="colorFundo">#E0FFFF</color>
     <color name="colorLetrascomun">#e8f2f5</color>
+    <color name="colorLetrasazul">#FF0D1C70</color>
+    <color name="colorLetrasverde">#1986A0</color>
 </resources>

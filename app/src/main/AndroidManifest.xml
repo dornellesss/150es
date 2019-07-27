@@ -15,6 +15,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".PrincipalMenuActivity">
+        </activity>
+        <activity android:name=".EsporteActivity">
+        </activity>
+        <activity android:name=".DancaActivity">
+        </activity>
+        <activity android:name=".AcademiaActivity">
+        </activity>
         <activity android:name=".CalendarioActivity">
         </activity>
         <activity android:name=".QrcodeActivity">
