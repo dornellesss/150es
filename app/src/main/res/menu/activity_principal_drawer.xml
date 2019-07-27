@@ -12,14 +12,13 @@
                 android:id="@+id/nav_gallery"
                 android:icon="@drawable/ic_menu_gallery"
                 android:title="@string/menu_foto"/>
-
         <item
                 android:id="@+id/nav_metas"
-                android:icon="@drawable/ic_menu_manage"
+                android:icon="@drawable/ic_metas"
                 android:title="@string/menu_metas"/>
     </group>
 
-    <item android:title="Descontos">
+    <item android:title="Parceiros">
         <menu>
             <item
                     android:id="@+id/nav_nutricao"
@@ -40,7 +39,7 @@
         </menu>
     </item>
 
-    <item android:title="Parceiros">
+    <item android:title="Descontos">
         <menu>
             <item
                     android:id="@+id/nav_nutricionista"
@@ -52,15 +51,15 @@
                     android:title="@string/menu_personalTreino"/>
             <item
                     android:id="@+id/nav_psicolo"
-                    android:icon="@drawable/ic_danca"
+                    android:icon="@drawable/ic_psicolo"
                     android:title="@string/menu_psicolo"/>
             <item
                     android:id="@+id/nav_medico"
-                    android:icon="@drawable/ic_medicos"
+                    android:icon="@drawable/ic_familia"
                     android:title="@string/menu_medicos"/>
             <item
                     android:id="@+id/nav_fisiote"
-                    android:icon="@drawable/ic_fitness"
+                    android:icon="@drawable/ic_esportes"
                     android:title="@string/menu_fisiote"/>
         </menu>
     </item>

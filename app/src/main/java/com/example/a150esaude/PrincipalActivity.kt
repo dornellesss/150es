@@ -11,6 +11,7 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.widget.Toast
 import kotlinx.android.synthetic.main.content_principal.*
 
 class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -31,6 +32,12 @@ class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             finish()
         }
 
+        btnInicioAtivi.setOnClickListener {
+         //   val intent = Intent(context, CalendarioActivity::class.java)
+            Toast.makeText(applicationContext, " Favor preenccher todo so campos!", Toast.LENGTH_LONG).show()
+          //  startActivity(intent)
+           // finish()
+        }
 
         val fab: FloatingActionButton = findViewById(R.id.fab)
         fab.setOnClickListener { view ->
@@ -108,7 +115,6 @@ class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             R.id.nav_academia -> {
 
             }
-
 
         }
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)

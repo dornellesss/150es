@@ -3,19 +3,19 @@
 
     <item android:id="@+id/cal_atividade"
           android:title="@string/cal_atividade"
-          android:icon="@drawable/ic_location"
+          android:icon="@drawable/ic_ativi_24dp"
           android:orderInCategory="100"
          />
 
     <item android:id="@+id/cal_acumulado"
           android:title="@string/cal_acumulado"
           android:orderInCategory="200"
-          android:icon="@drawable/ic_google_map"
+          android:icon="@drawable/ic_contador_24dp"
          />
     <item android:id="@+id/meus_pontos"
           android:title="@string/meus_pontos"
           android:orderInCategory="200"
-          android:icon="@drawable/ic_google_map"
+          android:icon="@drawable/ic_pontos_24dp"
     />
 
 </menu>
