@@ -2,16 +2,16 @@ package com.example.a150esaude
 
 import android.content.Intent
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import androidx.core.view.GravityCompat
-import androidx.appcompat.app.ActionBarDrawerToggle
+import android.view.Menu
 import android.view.MenuItem
-import androidx.drawerlayout.widget.DrawerLayout
-import com.google.android.material.navigation.NavigationView
+import android.widget.Toast
+import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import android.view.Menu
-import android.widget.Toast
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.content_principal.*
 
 class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -33,7 +33,7 @@ class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
 
         btnInicioAtivi.setOnClickListener {
          //   val intent = Intent(context, CalendarioActivity::class.java)
-            Toast.makeText(applicationContext, " Favor preenccher todo so campos!", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext, "Inicializa o contrador de tempo da atividade!", Toast.LENGTH_LONG).show()
           //  startActivity(intent)
            // finish()
         }
@@ -108,7 +108,7 @@ class PrincipalActivity : AppCompatActivity(), NavigationView.OnNavigationItemSe
             R.id.nav_fisiote -> {
 
             }
-            R.id.nav_psicolo-> {
+            R.id.nav_psicolo -> {
 
             }
             R.id.nav_academia -> {
